@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
 .clear {
 	clear:both;
 }
@@ -7,8 +9,8 @@
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f84342;
-    border: 1px solid #F7F7F7;
+    background: #44C7B1;
+    border: 1px solid #44C7B1;
     width: 80px;
     height: 80px;
     margin: 10px 10px;
@@ -32,11 +34,21 @@
 .links a {
 	color: black;
 	font-size: 25px;
-	border-bottom: 1px solid #44C7B1;
+	border-bottom: 1px solid #00688B;
+	font-family: 'ralewaylight', sans-serif;
+	font-weight: bold;
 }
 header {
 	border-top: 9px solid #44C7B1;
 }
 hr {
 	clear:both;
+}
+h1 {
+	font-family: 'ralewaylight', sans-serif;
+	font-weight: bold;
+	font-size: 48px;
+}
+h2 {
+	font-family: 'ralewaylight', sans-serif;
 }
