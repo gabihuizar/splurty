@@ -11,24 +11,38 @@
 		<div class='col-xs-3'>
 			<div class='circle'>
 				<br />
-				YOU KNOW
-				<br />
-				YOU NEED
-				<br />
 				TO TRAVEL
+				<br />
+				IS TO
+				<br />
+				LIVE!!!
 			</div>
 		</div>
 		<div class='col-xs-4 slogan'>
 			Splurting out travelspiration since 2015
 		</div>
 		<div class='col-xs-5 links'>
-			<%= link_to 'Add your own travelspiration', '#' %>
+			<%= link_to 'Add your travelspiration', '#' %>
 			<%= link_to 'About', '#' %>
 		</div>
 	</header>
 	<hr />
 	<br class='clear'/>
-<%= yield %>
+	<div class='container'>
+		<%= yield %>
+	</div>
+
+	<div class='footer'>
+		<div class='container'>
+			<div class='col-xs-6'>
+				<%= link_to "This isn't enough, I need more!", "#", :class => 'next-quote' %>
+			</div>
+			<div class='col-xs-6 footer-blurb'>
+				Proudly made in California by <a href='https://twitter.com/gabihuizar'>Gaby Castaneda</a></br />
+				Want to build your own Splurty Web App? <a href="http://firehoseproject.com">Learn how to code here</a>
+			</div>
+		</div>'
+	</div>
 
 </body>
 </html>
