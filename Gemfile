@@ -36,6 +36,7 @@ gem 'bootstrap-sass', '~> 3.3.4'
 
 gem 'simple_form'
 
+gem 'heroku', '~> 3.42.16'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
